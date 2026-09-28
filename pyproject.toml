@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "docs-factory"
+version = "1.0.0"
+description = "Deterministic documentation generated from static Python AST evidence"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+df = "docs_factory.cli:main"
+
+[tool.setuptools]
+packages = ["docs_factory"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
