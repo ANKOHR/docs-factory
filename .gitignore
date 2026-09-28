@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+df-prompt.txt
+df-launch.py
+df-codex.log
+df-audit.jsonl
